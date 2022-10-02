@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header{
+    background-color: rgba(53,58,64,255);
+    width: 100%;
+    display: table;
+    padding: 0 10%;
+    position: absolute;
+    top: 0;
+}
+.imPort{
+    width: 100%;
+    position:relative ;
+    filter:brightness(0.4);
+    max-height:900px;
+    
+}
+li{
+    color: aliceblue;
+}
+
+
+.logo{
+    height: 70px;
+    width: auto;
+    float: left;
+}
+
+.titLogo{
+    float: left;
+    color:white;
+    padding-top: 18px;
+}
+
+nav{
+    float: right;
+    margin-top: 1em;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 5px;
+    padding-top: 15px;
+}
+nav ul li span{
+    color: green;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/*PORTADA*/
+.textoBA{
+    text-align: end;
+    margin-right:10%;
+    color: white;
+    position: absolute;
+    top:40%;
+    right: 0%;
+    
+}
+
+/*ORADORES*/
+.textCard{
+    text-align: center;
+    margin-top: 1em;
+    
+}
+
+.card-group{
+    display:flex;
+    flex-flow:row wrap ;
+    justify-content:space-between;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.card {
+    height:70%;
+    width:50%;
+    margin:0.9em;
+    border: 1px solid black;
+}
+
+
+/*LAS 2 COLUMNAS*/
+.col{
+    margin-top: 1em;
+    display: flex;
+    justify-content:space-between;
+    background-color: rgba(53,58,64,255);
+    
+}
+
+.col .caja{
+    width: 50%;
+    border: 1px solid rgba(71,76,81,255);
+}
+.textCol{
+    padding: 1%;
+    padding-left: 1% ;
+    color: white;
+}
+
+.col .caja img{
+    width: 100%;
+}
+
+/*tITULO CONVERTITE EN...*/
+.punteado{
+    border-bottom:1px dotted #000;
+}
+/*FORMULARIO*/
+
+form{
+    margin-top: 1em;
+    margin: 0 20%;
+}
+
+.formulario .container{
+    display: flex;
+    justify-content: center;
+}
+.formulario .container .apellido{
+    float:right;
+    width: 49.5%;
+}
+.formulario .container .nombre{
+    float:left;
+    width: 49.5%;
+}
+
+input#botonEnviar{
+    padding: 5px 50px;
+    color:white;
+    background-color: rgba(150,201,62);
+    width: 100%;
+    border-color: rgba(150,201,62);
+    border-radius:0.5em;
+}
+
+figcaption{
+    color: gray;
+    margin-top: 0;
+}
+/*fOOTER*/
+
+footer{
+    padding-top:1em;
+}
+
+
+input #botonEnviar{
+    padding: 5PX 50PX;
+}
+
+/*fOOTER*/
+
+footer{
+    height: 70px;
+    background-image: linear-gradient(to right,rgba(28,56,70,255),#1d5270);
+}
+footer li a{
+    margin-left: 1%;
+    text-decoration: none;
+    color: aliceblue;
+}
+footer li{
+    list-style: none ;
+}
+.container text-center{
+    margin-top: 1em;
+    
+
+}
